@@ -15,3 +15,9 @@ pt_data[c("temperature","flu_status")]
 
 pt_data[1,2]
 pt_data[,1]
+pt_data[c(1, 3), c("temperature", "gender")]
+m <- matrix(c(1, 2, 3, 4), nrow = 2)
+m <- matrix(c(1, 2, 3, 4), ncol = 2)
+m
+iris_labeled
+save(iris_labeled, file = "mydata.RData")
